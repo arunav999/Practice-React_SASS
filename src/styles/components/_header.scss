@@ -1,0 +1,8 @@
+@use "../abstracts/index" as *;
+
+.header {
+  font-family: $font-primary;
+  font-size: 5rem;
+
+  text-align: center;
+}
