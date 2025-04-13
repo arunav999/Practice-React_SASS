@@ -12,10 +12,21 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #7b877b;
+}
+
 .header {
   font-family: "Rubik";
   font-size: 5rem;
   text-align: center;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
