@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import Card from "./Card.jsx";
 
-import USERS_DATA from "../util/data.js";
+import USERS_DATA from "../util_js/data.js";
 
 export default function Cards() {
   const [currentIndex, setCurrentIndex] = useState(0);
