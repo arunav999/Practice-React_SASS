@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "sass:watch": "sass --watch src/styles/main.scss:src/styles/css/main.css",
+    "sass:watch": "sass --watch src/Cards_React/styles/main.scss:src/Cards_React/styles/css/main.css",
     "live:server": "concurrently \"npm run dev\" \"npm run sass:watch\""
   },
   "dependencies": {
