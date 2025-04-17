@@ -1,9 +1,11 @@
 import React from "react";
 
+import Accordian from "./components/Accordian.jsx";
+
 export default function AccordianApp() {
   return (
     <>
-      <p className="name">Arunav</p>
+      <Accordian />
     </>
   );
 }

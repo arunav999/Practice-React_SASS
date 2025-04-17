@@ -13,10 +13,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  background-color: #7b877b;
-}
-
 /*----- CARDS -----*/
 .header {
   font-family: "Rubik";
@@ -32,9 +28,36 @@ body {
 }
 
 /*----- ACCORDIAN -----*/
-.name {
-  color: orangered;
-  font-size: 100px;
+.wrapper {
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper__accordian {
+  width: 50rem;
+}
+.wrapper__item {
+  background: #614101;
+  margin: 1rem;
+  padding: 1rem 2rem;
+}
+.wrapper__title {
+  color: #fff;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.wrapper__content {
+  padding: 2rem;
+  color: #fff;
+  height: auto;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
