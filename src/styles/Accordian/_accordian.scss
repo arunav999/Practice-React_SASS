@@ -5,8 +5,27 @@
   width: 100vw;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2rem;
+
+  & button {
+    padding: 1rem 2rem;
+    background: #614101;
+    color: #fff;
+    border-color: #fff;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.25s;
+  }
+
+  & button.selected {
+    color: #614101;
+    background: #fff;
+    border-color: #614101;
+  }
 
   &__accordian {
     width: 50rem;
@@ -32,6 +51,6 @@
     padding: 2rem;
     color: #fff;
     height: auto;
-    cursor: pointer; 
+    cursor: pointer;
   }
 }
