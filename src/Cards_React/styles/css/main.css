@@ -29,9 +29,11 @@ body {
   gap: 1.5rem;
 }
 
-.Aru {
-  font-size: 25px;
-  font-family: "Rubik";
+.refInput {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

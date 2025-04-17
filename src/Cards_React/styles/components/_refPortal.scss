@@ -1,6 +1,9 @@
 @use "../abstracts/index" as *;
 
-.Aru {
-  font-size: 25px;
-  font-family: $font-primary;
+.refInput {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
