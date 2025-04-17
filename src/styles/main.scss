@@ -1,11 +1,12 @@
+/*----- CARDS -----*/
 // Abstracts
-@use "./abstracts";
+@use "./Cards/abstracts";
 
 // Base
-@use "./base";
+@use "./Cards/base";
 
 // Components
-@use "./components";
+@use "./Cards/components";
 
-// Themes
-@use "./themes";
+/*----- ACCORDIAN -----*/
+@use "./Accordian//accordian";
