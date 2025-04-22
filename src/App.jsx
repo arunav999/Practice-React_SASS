@@ -14,7 +14,7 @@ export default function App() {
     <>
       {/* <Header /> */}
       {/* <Cards /> */}
-      <AccordianApp />
+      {/* <AccordianApp /> */}
       <RandomColorApp />
     </>
   );
