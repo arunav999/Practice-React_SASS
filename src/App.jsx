@@ -9,6 +9,7 @@ import AccordianApp from "./Accordion/AccordianApp.jsx";
 // Random Color App
 import RandomColorApp from "./Random_Color/RandomColorApp.jsx";
 import StarRatingApp from "./Star_Rating/StarRatingApp.jsx";
+import ImageSliderApp from "./ImageSlider/ImageSliderApp.jsx";
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/* <Cards /> */}
       {/* <AccordianApp /> */}
       {/* <RandomColorApp /> */}
-      <StarRatingApp />
+      {/* <StarRatingApp /> */}
+      <ImageSliderApp />
     </>
   );
 }
