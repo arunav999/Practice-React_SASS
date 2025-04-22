@@ -13,6 +13,11 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  width: 120rem;
+  margin: 0 auto;
+}
+
 /*----- CARDS -----*/
 .header {
   font-family: "Rubik";
@@ -103,5 +108,12 @@ html {
 }
 
 /* ----- STAR RATING ----- */
+.active {
+  color: #fff700;
+}
+
+.inactive {
+  color: #000;
+}
 
 /*# sourceMappingURL=main.css.map */
